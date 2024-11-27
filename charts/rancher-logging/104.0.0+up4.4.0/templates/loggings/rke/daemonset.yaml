@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       name: {{ .Release.Name }}-rke-aggregator
-  template:gi
+  template:
     metadata:
       name: "{{ .Release.Name }}-rke-aggregator"
       namespace: "{{ .Release.Namespace }}"
